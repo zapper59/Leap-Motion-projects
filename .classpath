@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="libraries/HackDFW2015rec/x64/LeapJava.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="LeapMotion/libraries/HackDFW2015rec/x64"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libraries/HackDFW2015rec/MoreAudio/jl1.0.1.jar"/>
+	<classpathentry kind="lib" path="libraries/HackDFW2015rec/MoreAudio/resty-0.3.2.jar"/>
+	<classpathentry kind="lib" path="libraries/HackDFW2015rec/audio/cmu_time_awb.jar"/>
+	<classpathentry kind="lib" path="libraries/HackDFW2015rec/audio/cmu_us_kal.jar"/>
+	<classpathentry kind="lib" path="libraries/HackDFW2015rec/audio/cmudict04.jar"/>
+	<classpathentry kind="lib" path="libraries/HackDFW2015rec/audio/cmulex.jar"/>
+	<classpathentry kind="lib" path="libraries/HackDFW2015rec/audio/cmutimelex.jar"/>
+	<classpathentry kind="lib" path="libraries/HackDFW2015rec/audio/en_us.jar"/>
+	<classpathentry kind="lib" path="libraries/HackDFW2015rec/audio/freetts-jsapi10.jar"/>
+	<classpathentry kind="lib" path="libraries/HackDFW2015rec/audio/freetts.jar"/>
+	<classpathentry kind="lib" path="libraries/HackDFW2015rec/audio/mbrola.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
