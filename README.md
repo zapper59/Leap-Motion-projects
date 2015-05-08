@@ -6,6 +6,7 @@ Sign Language
 -------------
 **Main:** Leap.java
 This package was built at a hackathon, and aims to read American sign language through a leap motion, and output it through audio.  This is best used while also viewing the included leap motion visualizer in order to get a good idea of what it is thinking.
+
 **Usage:**
 * This was origionaly configured using a right hand, and those values are stored in hands.txt and numberHands.txt
 * The program uses statistical analysis to determine the best match between your hand and the values in these files.
@@ -21,6 +22,7 @@ Theremin
 **Main:** Theremin.java
 This package is an experiment meant to replicate the sound of a theremin.
 There are a number of static variables which can be adjusted in order to produce a different sound and functionality.
+
 **Usage:**
 * The vertical axis controls pitch.
 * The horizontal axis controls volume.
