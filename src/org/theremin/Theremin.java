@@ -20,7 +20,7 @@ public class Theremin implements ChangeListener, ActionListener, Runnable {
 
 	@SuppressWarnings("unused")
 	private static final long serialVersionUID = 1L;
-	private static final boolean PLAY_SONG = false;
+	private static final boolean PLAY_SONG = true;
 	private static final int HARMONIC_MULTIPLIERS_TO_USE = 2;
 	private static final boolean LOCK_TONE_TO_NOTES = true;
 
