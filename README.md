@@ -15,6 +15,7 @@ This package was built at a hackathon, and aims to read American sign language t
 * If you would like to see a list of words that you can spell with your currently set letters set the value of SHOW_AVAILABLE_WORDS to true.
 * During operation press ENTER at the console to seek a match from hands.txt and to seek a match from numberHands.txt briefly but calmly place your left hand in the field of view.
 * Matched characters are put into a String and then that String is printed out.  In order to backspace do a counterclockwize guesture, and in order to clear the string and send it to audio do a clockwize guesture.
+
 **News Article (skip the video ahead to about 0:30):**  http://cw33.com/2015/03/01/hack-city-dallas-hosts-hackathon/
 
 Theremin
