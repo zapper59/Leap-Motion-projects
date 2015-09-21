@@ -4,10 +4,12 @@ In order to use this code you must properly install the leap motion software for
 
 Sign Language
 -------------
-**Main:** Leap.java
 **Linux:**
+
 	./gradlew signlanguage
+
 **Windows:**
+
 	gradlew.bat signlanguage
 
 This package was built at a hackathon, and aims to read American sign language through a leap motion, and output it through audio.  This is best used while also viewing the included leap motion visualizer in order to get a good idea of what it is thinking.
@@ -25,10 +27,12 @@ This package was built at a hackathon, and aims to read American sign language t
 
 Theremin
 --------
-**Main:** Theremin.java
 **Linux:**
+
 	./gradlew theremin
+
 **Windows:**
+
 	gradlew.bat theremin
 
 This package is an experiment meant to replicate the sound of a theremin.
