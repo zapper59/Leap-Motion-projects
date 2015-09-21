@@ -1,0 +1,28 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+sourceSets.main.java {
+	srcDir 'src/main/resources'
+}
+
+dependencies {
+	compile fileTree(dir:"libraries/HackDFW2015rec",include:'**/*.jar')
+	//compile fileTree(dir:"libraries/HackDFW2015rec/MoreAudio",include:'*.jar')
+	//compile fileTree(dir:"libraries/HackDFW2015rec/x64",include:'*.jar')
+}
+
+task(theremin, type:JavaExec){
+	main = 'org.theremin.Theremin'
+	classpath sourceSets.main.runtimeClasspath
+	systemProperty "java.library.path", "libraries/HackDFW2015rec/x64"
+}
+
+task(signlanguage, type:JavaExec){
+	main = 'org.signlanguage.Leap'
+	classpath sourceSets.main.runtimeClasspath
+	systemProperty "java.library.path", "libraries/HackDFW2015rec/x64"
+}
+
+wrapper {
+	version = "2.4"
+}
